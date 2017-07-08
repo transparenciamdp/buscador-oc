@@ -43,7 +43,6 @@ export default class SearchForm extends Component {
                 <div className="form-actions">
                     <button className="btn btn-primary btn-lg" type="submit">{searchLabel}</button>
                 </div>
-                <hr />
             </form>
         );
     }

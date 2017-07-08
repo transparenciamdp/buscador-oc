@@ -53,7 +53,9 @@ class SearchApp extends React.Component {
         let action = this.loadResults.bind(this);
         return (
             <div>
-                <SearchForm action={action} />
+                <div className="well">
+                    <SearchForm action={action} />
+                </div>
                 <SearchResult cols={this.state.cols} rows={this.state.data}/>
             </div>
         );
