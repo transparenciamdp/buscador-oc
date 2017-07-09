@@ -24,7 +24,7 @@ export default class SearchResult extends Component {
                 </td></tr>);
 
         let data_rows = rows.length
-            ? rows.map((row, i) => <SearchResultRow row={i} key={i} cols={row}/>)
+            ? rows.map((row, i) => <SearchResultRow row={i} key={i} cols={row} displayCols={cols} />)
             : noResultsRow;
         let resume = <div id="result-resume">{this.resultCount(rows.length)}</div>;
         return (
