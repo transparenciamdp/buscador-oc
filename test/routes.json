@@ -1,5 +1,5 @@
 {
-  "/api/columns/selected": "/columns_selected",
-  "/api/columns": "/columns",
-  "/api/search": "/results"
+  "/api_ordenes/columns/selected": "/columns_selected",
+  "/api_ordenes/columns": "/columns",
+  "/api_ordenes/search": "/results"
 }
