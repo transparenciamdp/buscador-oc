@@ -8,9 +8,12 @@
   "columns_selected": [
       "title"
   ],
-  "results": [
+  "results": {
+    "count": 5,
+    "rows": [
       {"title": "pepe 1", "q": "test"},
       {"title": "pepe 2", "q": "test"},
       {"title": "pepe 3", "q": "prueba"}
-  ]
+    ]
+  }
 }
