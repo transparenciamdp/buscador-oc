@@ -14,7 +14,7 @@ if(PROD) {
 module.exports = {
     entry: ['whatwg-fetch', './app.jsx'],
     output: {
-        path: __dirname,
+        path: __dirname + '/dist',
         filename: PROD ? 'app.build.min.js' : 'app.build.js'
     },
     plugins: PROD ? [

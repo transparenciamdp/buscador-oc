@@ -1,0 +1,5 @@
+{
+  "/api/columns/selected": "/columns_selected",
+  "/api/columns": "/columns",
+  "/api/search": "/results"
+}

@@ -1,0 +1,16 @@
+{
+  "columns": [
+      "id",
+      "title",
+      "created",
+      "modified"
+  ],
+  "columns_selected": [
+      "title"
+  ],
+  "results": [
+      {"title": "pepe 1", "q": "test"},
+      {"title": "pepe 2", "q": "test"},
+      {"title": "pepe 3", "q": "prueba"}
+  ]
+}
