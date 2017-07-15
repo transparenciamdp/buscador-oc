@@ -2,4 +2,5 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import SearchApp from './react-customsearch/app.jsx';
 
-ReactDOM.render(<SearchApp src="/api_ordenes/" />, document.querySelector("#search-form"));
+let rootElement = document.querySelector("#search-form");
+ReactDOM.render(<SearchApp src={rootElement.attributes["api-src"].value || "/"} />, rootElement);
