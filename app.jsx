@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import SearchApp from './react-customsearch/app.jsx';
+import CustomSearch from './react-customsearch/app.jsx';
 
 const currency = v => "$ " + parseFloat(v);
 
@@ -34,4 +34,4 @@ let
 // @TODO about column headers, it might be good a "resilient" behavior where first raw columnNames are shown
 // then "translations" / displayable text may come from an XHRequest or other source async'ly, and update
 
-ReactDOM.render(<SearchApp options={{src, columnNames, limit, fieldFormatters}} />, rootElement);
+ReactDOM.render(<CustomSearch options={{src, columnNames, limit, fieldFormatters}} />, rootElement);
