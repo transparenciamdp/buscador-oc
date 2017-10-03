@@ -1,0 +1,18 @@
+{
+  "name": "mgp_buscadoroc",
+  "version": "1.0.0",
+  "description": "Buscador de Ordenes de Compra",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node node_modules/json-server/bin --watch test/data.json --routes test/routes.json -s dist",
+  },
+  "author": "http://github.com/tincho",
+  "license": "MIT",
+  "dependencies": {
+    "react-customsearch": "^1.0"
+  },
+  "devDependencies": {
+    "json-server": "^0.10.3"
+  }
+}
