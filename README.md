@@ -8,3 +8,7 @@ Esta aplicación consta de 3 partes principales:
 Este repositorio en sí contiene el frontend.
 
 Ver código en [index.html](dist/index.html)
+
+## @TODO
+
+Incluir react-customsearch como npm module instead of hard copying it into `dist/`
