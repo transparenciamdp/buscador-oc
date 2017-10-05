@@ -6,8 +6,9 @@ Esta aplicación consta de 3 partes principales:
 * Un frontend basado en [react-customsearch](http://github.com/tincho/react-customsearch)
 
 Este repositorio en sí contiene el frontend.
+Ver implentación en [index.html](dist/index.html)
 
-Ver código en [index.html](dist/index.html)
+[Demo en producción](https://www.transparenciamdp.com.ar/busca_ordenes/)
 
 ## @TODO
 
