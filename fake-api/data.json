@@ -9,10 +9,19 @@
       "title"
   ],
   "results": {
-    "count": 5,
+    "count": 50,
+    "limit": 10,
+    "offset": 0,
     "rows": [
       {"title": "pepe 1", "q": "test"},
       {"title": "pepe 2", "q": "test"},
+      {"title": "pepe 3", "q": "prueba"},
+      {"title": "pepe 3", "q": "prueba"},
+      {"title": "pepe 3", "q": "prueba"},
+      {"title": "pepe 3", "q": "prueba"},
+      {"title": "pepe 3", "q": "prueba"},
+      {"title": "pepe 3", "q": "prueba"},
+      {"title": "pepe 3", "q": "prueba"},
       {"title": "pepe 3", "q": "prueba"}
     ]
   }
