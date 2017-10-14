@@ -5,9 +5,10 @@ Esta aplicación consta de 3 partes principales:
 * Un backend [customsearch](http://github.com/tincho/customsearch) generador de queries para buscar determinado(s) término(s) en todos los campos especificados de diversas formas
 * Un frontend basado en [react-customsearch](http://github.com/tincho/react-customsearch)
 
-Este repositorio en sí contiene la instancación del frontend.
+Este repositorio en sí contiene el frontend.
+Ver implentación en [index.html](dist/index.html)
 
-Ver código en [index.html](dist/index.html)
+[Demo en producción](https://www.transparenciamdp.com.ar/busca_ordenes/)
 
 ## Instrucciones
 
